@@ -9,7 +9,9 @@ One document that explains the whole system, which we'll publish as a website an
 It's for two kinds of reader:
 
 - **Non-technical readers**, such as DfE, school leaders and teachers, who want to know what it does and why.
-- **Technical readers**, such as the Pioneers, other suppliers and engineers, who want to know how it works.
+- **Technical readers**, such as our engineers at i.AI and the third parties we work with, who want to know how it works.
+
+It's public, so anyone can read it.
 
 Both read the same document.
 It starts simple and gets more detailed as it goes, so people can stop when they've read enough.
@@ -22,16 +24,17 @@ It starts simple and gets more detailed as it goes, so people can stop when they
   - Mermaid diagrams for the system and the records, which GitHub Pages can draw.
   - A few short animations (GIF or SVG) of one pupil's journey, taken from the live demo.
 - Each section opens with a short **"In short"** box, so a reader can skim.
+- Every diagram and animation has a text description, for people using screen readers.
 
 ## How people will comment
 
 The repo is public, so anyone with a GitHub account can take part:
 
-- **Comments under each page**, using giscus, which stores them in the repo's GitHub Discussions.
+- **Comments under each page.** We'll use giscus, a free tool that adds a comment box to the bottom of each page. Comments are saved in this repo's GitHub Discussions, so people comment with their GitHub account.
 - **A "Suggest a change" link** on each page, which opens an edit as a pull request.
 - **Issues**, for bigger points, with a simple template.
 
-We'll set a **comment window**, for example four weeks, and name who decides.
+We'll keep comments open for a set time, for example four weeks, and then update the document based on what people said.
 
 ## The document, section by section
 
@@ -57,31 +60,18 @@ We'll set a **comment window**, for example four weeks, and name who decides.
 Nothing goes in that we wouldn't want public:
 
 - No details from conversations with the Pioneers (such as the Medly and Pearson papers).
-- No internal names, Slack messages, costs or contracts.
+- No costs or contracts.
 - Only synthetic data, which is all we use anyway.
-- Security gaps described as open questions, not as weaknesses to exploit.
-- No links into the private repo, since readers can't open them.
-
-## Before we publish
-
-- **Sign-off:** agree who approves it before it goes live (Yunus, Sam Howe, DSIT comms?).
-- **Licence:** the Open Government Licence (OGL) for the text, and MIT for any code.
-- **Accessibility:** readable headings, alt text on every diagram and animation, and plain language throughout.
+- Security written up as questions we're still working on, without details that could help someone misuse the system.
+- Every link works for a public reader: nothing points to our private repo, which they can't open.
 
 ## Steps
 
 1. **Agree this plan** with Yunus and Sam Howe.
-2. **Set up the repo:** README, licence, how to contribute, an issue template, GitHub Pages, Discussions and giscus.
+2. **Set up the repo:** README, licence (the Open Government Licence), how to contribute, an issue template, GitHub Pages, Discussions and giscus.
 3. **Write the outline** in full: each section's headings and key points.
 4. **Write the sections**, starting with "In one page" and "One pupil's journey".
 5. **Add the diagrams and animations.**
 6. **Test it** on one non-technical reader and one technical reader, and fix what they found unclear.
-7. **Get sign-off and publish**, then open the comment window.
+7. **Publish it** and start collecting comments.
 8. **Keep track of comments**, reply to them, and update the document.
-
-## Questions to agree
-
-1. Who signs it off before it's published?
-2. How long should the comment window be?
-3. Who is the decider at the end?
-4. Should the Pioneers be told before it goes public?
