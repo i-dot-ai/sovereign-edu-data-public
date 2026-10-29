@@ -1,0 +1,57 @@
+title: A shared data layer for AI tutoring
+description: How AI tutoring tools could get what they need to know about a pupil, and hand back what they learned, in a way any school and any tool can use.
+
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+plugins:
+  - jekyll-remote-theme
+
+url: https://i-dot-ai.github.io
+baseurl: /sovereign-edu-data-public
+
+search_enabled: true
+heading_anchors: true
+
+# Diagrams drawn from Mermaid code blocks
+mermaid:
+  version: "11.4.1"
+
+# "Suggest a change to this page" at the bottom of each page
+gh_edit_link: true
+gh_edit_link_text: Suggest a change to this page
+gh_edit_repository: https://github.com/i-dot-ai/sovereign-edu-data-public
+gh_edit_branch: main
+gh_edit_view_mode: edit
+
+aux_links:
+  Comment on GitHub:
+    - https://github.com/i-dot-ai/sovereign-edu-data-public/discussions
+aux_links_new_tab: true
+
+callouts:
+  in-short:
+    title: In short
+    color: blue
+  outline:
+    title: Outline - still being written
+    color: yellow
+
+# Comments under each page (giscus). Fill in from https://giscus.app once Discussions are on.
+giscus:
+  repo: i-dot-ai/sovereign-edu-data-public
+  repo_id: ""
+  category: Comments
+  category_id: ""
+
+footer_content: Published under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>.
+
+exclude:
+  - PLAN.md
+  - README.md
+  - CONTRIBUTING.md
+  - LICENCE
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
