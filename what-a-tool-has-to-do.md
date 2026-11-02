@@ -13,7 +13,7 @@ This page is an outline. The headings and points below show what it will cover.
 
 ## The twelve requirements
 
-- Grouped: naming the pupil, sessions, the records to send, the actions allowed, timestamps, and sending through the service.
+- Grouped: naming the pupil, sessions, the records to send, the actions allowed, timestamps, and sending through the integration layer.
 
 ## What could change
 

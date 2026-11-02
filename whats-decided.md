@@ -21,6 +21,6 @@ This page is an outline. The headings and points below show what it will cover.
 - A session's topic is a curriculum unit.
 - Summaries rebuilt when a new report arrives.
 - Six functions.
-- Tools send records through the service.
+- Tools send records through the integration layer.
 - Materials come with their description.
 - Unlabelled materials matched later.

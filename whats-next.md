@@ -15,8 +15,7 @@ This page is an outline. The headings and points below show what it will cover.
 
 - Connecting to schools' systems.
 - Standards and security.
-- The service's interface.
+- The integration layer's interface.
 - Curricula.
 - Describing material and understanding learning.
 - Learning records.
-- Evidence.
