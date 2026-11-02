@@ -1,0 +1,5 @@
+# Made by the local preview, never committed
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
