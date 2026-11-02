@@ -49,6 +49,9 @@ exclude:
   - README.md
   - CONTRIBUTING.md
   - LICENCE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
 
 defaults:
   - scope:
