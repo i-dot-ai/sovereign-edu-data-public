@@ -6,24 +6,43 @@ nav_order: 4
 # How it works: the big picture
 
 {: .in-short }
-Schools' systems on one side, tutoring tools on the other, and a shared service in the middle that links everything to one curriculum map.
-
-{: .outline }
-This page is an outline. The headings and points below show what it will cover.
+Schools' systems on one side, tutoring tools on the other, and an integration layer in the middle that links everything to one curriculum map.
 
 ## The pieces
 
-- The school's own systems: its pupil list, its teaching materials, and a store for learning records.
-- The shared curriculum map.
-- The service in the middle.
-- The tutoring tools.
+- **The school's own systems**: its list of pupils and classes, its teaching materials, and a store for learning records.
+- **The shared curriculum map**: every unit and lesson, and which come before which.
+- **The integration layer**: the system in the middle, between schools and AI tutoring tools.
+- **The tutoring tools**: they ask for context and send back what happened.
+
+```mermaid
+flowchart LR
+  subgraph School
+    P[Pupils and classes]
+    M[Teaching materials]
+    R[Learning records]
+  end
+  C[Curriculum map]
+  I[Integration layer]
+  T1[Tutoring tool A]
+  T2[Tutoring tool B]
+  P --- I
+  M --- I
+  R --- I
+  C --- I
+  I <--> T1
+  I <--> T2
+```
 
 ## How information flows
 
-- In: a tool asks for context before a session.
-- Out: a tool sends back what happened after it.
-- Diagram: the whole system on one page.
+1. **Before a session**, a tool asks the integration layer for classroom context: where the lesson sits, the school's materials for it, and what's known about the pupil.
+2. **During the session**, the tool sends each answer the pupil gives.
+3. **At the end**, the tool sends a record of the session and its report on what the pupil understood.
+4. **Afterwards**, the integration layer updates the pupil's summary, and matches any unlabelled materials to their lesson.
 
 ## Where the data lives
 
-- What the service stores, and what it only asks the school's systems for.
+- **Answers** are kept in a standard learning record store, so a real one could be used later.
+- **Sessions, reports and summaries** are kept in a store of the integration layer's own.
+- **Pupils, classes and materials** stay in the school's systems. The integration layer only asks for them when it needs them.

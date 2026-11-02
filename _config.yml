@@ -1,5 +1,5 @@
-title: A shared data layer for AI tutoring
-description: How AI tutoring tools could get what they need to know about a pupil, and hand back what they learned, in a way any school and any tool can use.
+title: An integration layer for AI tutoring tools
+description: An integration layer to facilitate data interoperability across AI tutoring tools.
 
 remote_theme: just-the-docs/just-the-docs@v0.10.1
 plugins:
@@ -49,6 +49,9 @@ exclude:
   - README.md
   - CONTRIBUTING.md
   - LICENCE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
 
 defaults:
   - scope:
