@@ -59,7 +59,7 @@ We'll keep comments open for a set time, for example four weeks, and then update
 
 Nothing goes in that we wouldn't want public:
 
-- No details from conversations with the Pioneers (such as the Medly and Pearson papers).
+- No details from conversations with the Pioneers, such as papers shared with them.
 - No costs or contracts.
 - Only synthetic data, which is all we use anyway.
 - Security written up as questions we're still working on, without details that could help someone misuse the system.
